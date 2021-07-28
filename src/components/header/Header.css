@@ -1,0 +1,13 @@
+.todo_header{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.todo_screen{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 500px;
+    
+
+}

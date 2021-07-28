@@ -1,0 +1,43 @@
+input[type="button"]{
+    border: 1px solid #4D980F;
+    border-radius: 5px;
+    padding: .8rem;
+    font-size: 14px;
+    font-weight:600;
+    height: fit-content;
+    cursor: pointer;
+}
+
+input[type="submit"]{
+    border: 1px solid #4D980F;
+    border-radius: 5px;
+    padding: .8rem;
+    font-size: 14px;
+    font-weight:600;
+    height: fit-content;
+    cursor: pointer;
+}
+
+input[type="text"]{
+    border: 1px solid #4D980F;
+    border-radius: 3px;
+    padding: .8rem;
+    font-size: 14px;
+    font-weight:600;
+    height: fit-content;
+    cursor: pointer;
+}
+
+input:focus{
+    outline: none;
+}
+
+.green{
+    background: #4D980F;
+    color: #fff;
+}
+
+.transparent{
+    background: transparent;
+    color: #4D980F;
+}

@@ -1,0 +1,26 @@
+/* Logo Animation */
+.App-logo {
+    height: fit-content;
+    pointer-events: none;
+    margin: 0 auto;
+  }
+
+  p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
